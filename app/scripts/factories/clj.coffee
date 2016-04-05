@@ -2,7 +2,7 @@
 
 # Se encarga de hacer las consultas al backend
 
-angular.module('ngDcApp')
+angular.module('doraFrontApp')
   .factory 'Clj', ($http, $resource, $routeParams, $rootScope) ->
 
     # Inicializacion de return
@@ -36,6 +36,7 @@ angular.module('ngDcApp')
           (data) ->
             rreturn = data.data
             console.log('reset data', data.data)
+            return data.data
           () ->
             console.log("ERROR in $scope.eval_clojure"))
     evalNoSet: (code) ->

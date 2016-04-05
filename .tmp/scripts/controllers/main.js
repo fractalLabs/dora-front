@@ -8,11 +8,22 @@
     * # MainCtrl
     * Controller of the doraFrontApp
    */
-  angular.module('doraFrontApp').controller('MainCtrl', function($scope) {
+  angular.module('doraFrontApp').controller('MainCtrl', function($scope, Clj) {
     $scope.url = "";
-    return $scope.send = function() {
-      return console.log($scope.url);
+    $scope.expr = "";
+    $scope.send = function() {
+      console.log($scope.url);
+      $scope.expr = '(str \"lol\" "' + $scope.url + '")';
+      console.log($scope.expr);
+      return $scope.data = Clj.evalClojure($scope.expr).jresult;
     };
+    return $scope.watch(function() {
+      return Clj.getReturn();
+    }, function(newReturn) {
+      refresh();
+      console.log('new return: ', newReturn);
+      return $scope.data = newReturn.jresult;
+    });
   });
 
 }).call(this);

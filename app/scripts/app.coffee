@@ -17,7 +17,9 @@ angular
     'ngResource',
     'ngRoute',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.grid',
+    'ngProgress'
   ]
   .config ($routeProvider) ->
     $routeProvider

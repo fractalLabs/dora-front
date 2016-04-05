@@ -9,7 +9,7 @@
     *
     * Main module of the application.
    */
-  angular.module('doraFrontApp', ['ngAnimate', 'ngAria', 'ngCookies', 'ngMessages', 'ngResource', 'ngRoute', 'ngSanitize', 'ngTouch']).config(function($routeProvider) {
+  angular.module('doraFrontApp', ['ngAnimate', 'ngAria', 'ngCookies', 'ngMessages', 'ngResource', 'ngRoute', 'ngSanitize', 'ngTouch', 'ui.grid', 'ngProgress']).config(function($routeProvider) {
     return $routeProvider.when('/', {
       templateUrl: 'views/main.html',
       controller: 'MainCtrl',
