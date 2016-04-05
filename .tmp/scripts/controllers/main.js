@@ -11,7 +11,6 @@
   angular.module('doraFrontApp').controller('MainCtrl', function($scope) {
     $scope.url = "";
     return $scope.send = function() {
-      console.log("jaja");
       return console.log($scope.url);
     };
   });

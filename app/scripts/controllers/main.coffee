@@ -11,6 +11,5 @@ angular.module 'doraFrontApp'
   .controller 'MainCtrl', ($scope) ->
     $scope.url = ""
     $scope.send = ->
-      console.log "jaja"
       console.log $scope.url
     
