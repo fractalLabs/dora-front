@@ -8,8 +8,11 @@
     * # MainCtrl
     * Controller of the doraFrontApp
    */
-  angular.module('doraFrontApp').controller('MainCtrl', function() {
-    this.awesomeThings = ['HTML5 Boilerplate', 'AngularJS', 'Karma'];
+  angular.module('doraFrontApp').controller('MainCtrl', function($scope) {
+    $scope.url = "";
+    return $scope.send = function() {
+      return console.log($scope.url);
+    };
   });
 
 }).call(this);

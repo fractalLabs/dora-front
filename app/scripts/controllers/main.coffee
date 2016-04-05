@@ -8,10 +8,8 @@
  # Controller of the doraFrontApp
 ###
 angular.module 'doraFrontApp'
-  .controller 'MainCtrl', ->
-    @awesomeThings = [
-      'HTML5 Boilerplate'
-      'AngularJS'
-      'Karma'
-    ]
-    return
+  .controller 'MainCtrl', ($scope) ->
+    $scope.url = ""
+    $scope.send = ->
+      console.log $scope.url
+    
