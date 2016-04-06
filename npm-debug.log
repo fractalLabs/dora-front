@@ -31,33 +31,33 @@
 24 silly mapToRegistry uri https://registry.npmjs.org/inherits
 25 verbose request uri https://registry.npmjs.org/inherits
 26 verbose request no auth needed
-27 info attempt registry request try #1 at 11:13:06 PM
-28 verbose request id a515afcaaaca77dc
+27 info attempt registry request try #1 at 11:14:44 PM
+28 verbose request id abc0a44dbfeaa33e
 29 verbose etag "3645UNH34SN5CHM42TXWU4X9A"
 30 http request GET https://registry.npmjs.org/inherits
 31 http 304 https://registry.npmjs.org/inherits
-32 verbose headers { date: 'Wed, 06 Apr 2016 04:13:06 GMT',
+32 verbose headers { date: 'Wed, 06 Apr 2016 04:14:44 GMT',
 32 verbose headers   via: '1.1 varnish',
 32 verbose headers   'cache-control': 'max-age=300',
 32 verbose headers   etag: '"3645UNH34SN5CHM42TXWU4X9A"',
-32 verbose headers   age: '148',
+32 verbose headers   age: '246',
 32 verbose headers   connection: 'keep-alive',
-32 verbose headers   'x-served-by': 'cache-ord1744-ORD',
+32 verbose headers   'x-served-by': 'cache-ord1739-ORD',
 32 verbose headers   'x-cache': 'HIT',
-32 verbose headers   'x-cache-hits': '3',
-32 verbose headers   'x-timer': 'S1459915986.717112,VS0,VE0',
+32 verbose headers   'x-cache-hits': '10',
+32 verbose headers   'x-timer': 'S1459916084.799640,VS0,VE0',
 32 verbose headers   vary: 'Accept' }
 33 silly get cb [ 304,
-33 silly get   { date: 'Wed, 06 Apr 2016 04:13:06 GMT',
+33 silly get   { date: 'Wed, 06 Apr 2016 04:14:44 GMT',
 33 silly get     via: '1.1 varnish',
 33 silly get     'cache-control': 'max-age=300',
 33 silly get     etag: '"3645UNH34SN5CHM42TXWU4X9A"',
-33 silly get     age: '148',
+33 silly get     age: '246',
 33 silly get     connection: 'keep-alive',
-33 silly get     'x-served-by': 'cache-ord1744-ORD',
+33 silly get     'x-served-by': 'cache-ord1739-ORD',
 33 silly get     'x-cache': 'HIT',
-33 silly get     'x-cache-hits': '3',
-33 silly get     'x-timer': 'S1459915986.717112,VS0,VE0',
+33 silly get     'x-cache-hits': '10',
+33 silly get     'x-timer': 'S1459916084.799640,VS0,VE0',
 33 silly get     vary: 'Accept' } ]
 34 verbose etag https://registry.npmjs.org/inherits from cache
 35 verbose get saving inherits to /Users/nex/.npm/registry.npmjs.org/inherits/.cache.json
@@ -89,32 +89,32 @@
 49 verbose addNameRange registry:https://registry.npmjs.org/inherits not in flight; fetching
 50 verbose request uri https://registry.npmjs.org/inherits
 51 verbose request no auth needed
-52 info attempt registry request try #1 at 11:13:07 PM
+52 info attempt registry request try #1 at 11:14:45 PM
 53 verbose etag "3645UNH34SN5CHM42TXWU4X9A"
 54 http request GET https://registry.npmjs.org/inherits
 55 http 304 https://registry.npmjs.org/inherits
-56 verbose headers { date: 'Wed, 06 Apr 2016 04:13:07 GMT',
+56 verbose headers { date: 'Wed, 06 Apr 2016 04:14:45 GMT',
 56 verbose headers   via: '1.1 varnish',
 56 verbose headers   'cache-control': 'max-age=300',
 56 verbose headers   etag: '"3645UNH34SN5CHM42TXWU4X9A"',
-56 verbose headers   age: '149',
+56 verbose headers   age: '246',
 56 verbose headers   connection: 'keep-alive',
-56 verbose headers   'x-served-by': 'cache-ord1744-ORD',
+56 verbose headers   'x-served-by': 'cache-ord1739-ORD',
 56 verbose headers   'x-cache': 'HIT',
-56 verbose headers   'x-cache-hits': '4',
-56 verbose headers   'x-timer': 'S1459915987.830378,VS0,VE0',
+56 verbose headers   'x-cache-hits': '11',
+56 verbose headers   'x-timer': 'S1459916085.694737,VS0,VE0',
 56 verbose headers   vary: 'Accept' }
 57 silly get cb [ 304,
-57 silly get   { date: 'Wed, 06 Apr 2016 04:13:07 GMT',
+57 silly get   { date: 'Wed, 06 Apr 2016 04:14:45 GMT',
 57 silly get     via: '1.1 varnish',
 57 silly get     'cache-control': 'max-age=300',
 57 silly get     etag: '"3645UNH34SN5CHM42TXWU4X9A"',
-57 silly get     age: '149',
+57 silly get     age: '246',
 57 silly get     connection: 'keep-alive',
-57 silly get     'x-served-by': 'cache-ord1744-ORD',
+57 silly get     'x-served-by': 'cache-ord1739-ORD',
 57 silly get     'x-cache': 'HIT',
-57 silly get     'x-cache-hits': '4',
-57 silly get     'x-timer': 'S1459915987.830378,VS0,VE0',
+57 silly get     'x-cache-hits': '11',
+57 silly get     'x-timer': 'S1459916085.694737,VS0,VE0',
 57 silly get     vary: 'Accept' } ]
 58 verbose etag https://registry.npmjs.org/inherits from cache
 59 verbose get saving inherits to /Users/nex/.npm/registry.npmjs.org/inherits/.cache.json
@@ -186,600 +186,600 @@
 96 silly mapToRegistry   spec: 'latest',
 96 silly mapToRegistry   type: 'tag' }
 97 silly mapToRegistry uri https://registry.npmjs.org/oauth-sign
-98 verbose request uri https://registry.npmjs.org/caseless
+98 verbose request uri https://registry.npmjs.org/bl
 99 verbose request no auth needed
-100 info attempt registry request try #1 at 11:13:08 PM
-101 verbose etag "31X3RJHEJY3DII8ZZ4JC45YBC"
-102 http request GET https://registry.npmjs.org/caseless
-103 verbose request uri https://registry.npmjs.org/form-data
+100 info attempt registry request try #1 at 11:14:46 PM
+101 verbose etag "D1B17DLIUZQGW163WXLZWCU6W"
+102 http request GET https://registry.npmjs.org/bl
+103 verbose request uri https://registry.npmjs.org/caseless
 104 verbose request no auth needed
-105 info attempt registry request try #1 at 11:13:08 PM
-106 verbose etag "APS8DEJRIXCJTY5CF0KT4FD71"
-107 http request GET https://registry.npmjs.org/form-data
+105 info attempt registry request try #1 at 11:14:46 PM
+106 verbose etag "31X3RJHEJY3DII8ZZ4JC45YBC"
+107 http request GET https://registry.npmjs.org/caseless
 108 verbose request uri https://registry.npmjs.org/mime-types
 109 verbose request no auth needed
-110 info attempt registry request try #1 at 11:13:08 PM
+110 info attempt registry request try #1 at 11:14:46 PM
 111 verbose etag "6DRB8UMPN10CQEDW0PW2KP5BA"
 112 http request GET https://registry.npmjs.org/mime-types
-113 verbose request uri https://registry.npmjs.org/bl
+113 verbose request uri https://registry.npmjs.org/form-data
 114 verbose request no auth needed
-115 info attempt registry request try #1 at 11:13:08 PM
-116 verbose etag "D1B17DLIUZQGW163WXLZWCU6W"
-117 http request GET https://registry.npmjs.org/bl
+115 info attempt registry request try #1 at 11:14:46 PM
+116 verbose etag "APS8DEJRIXCJTY5CF0KT4FD71"
+117 http request GET https://registry.npmjs.org/form-data
 118 verbose request uri https://registry.npmjs.org/oauth-sign
 119 verbose request no auth needed
-120 info attempt registry request try #1 at 11:13:08 PM
+120 info attempt registry request try #1 at 11:14:46 PM
 121 verbose etag "9P5ESQ0UNHJTR4Z0BAF8IOD2W"
 122 http request GET https://registry.npmjs.org/oauth-sign
-123 http 304 https://registry.npmjs.org/caseless
-124 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-124 verbose headers   via: '1.1 varnish',
+123 http 200 https://registry.npmjs.org/bl
+124 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 verbose headers   etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
+124 verbose headers   'content-type': 'application/json',
+124 verbose headers   'content-encoding': 'gzip',
 124 verbose headers   'cache-control': 'max-age=300',
-124 verbose headers   etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
-124 verbose headers   age: '170',
+124 verbose headers   'content-length': '8248',
+124 verbose headers   'accept-ranges': 'bytes',
+124 verbose headers   date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   age: '155',
 124 verbose headers   connection: 'keep-alive',
-124 verbose headers   'x-served-by': 'cache-ord1744-ORD',
+124 verbose headers   'x-served-by': 'cache-ord1739-ORD',
 124 verbose headers   'x-cache': 'HIT',
 124 verbose headers   'x-cache-hits': '2',
-124 verbose headers   'x-timer': 'S1459915988.515460,VS0,VE0',
-124 verbose headers   vary: 'Accept' }
-125 silly get cb [ 304,
-125 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-125 silly get     via: '1.1 varnish',
+124 verbose headers   'x-timer': 'S1459916086.364135,VS0,VE0',
+124 verbose headers   vary: 'Accept-Encoding' }
+125 silly get cb [ 200,
+125 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+125 silly get     etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
+125 silly get     'content-type': 'application/json',
+125 silly get     'content-encoding': 'gzip',
 125 silly get     'cache-control': 'max-age=300',
-125 silly get     etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
-125 silly get     age: '170',
+125 silly get     'content-length': '8248',
+125 silly get     'accept-ranges': 'bytes',
+125 silly get     date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+125 silly get     via: '1.1 varnish',
+125 silly get     age: '155',
 125 silly get     connection: 'keep-alive',
-125 silly get     'x-served-by': 'cache-ord1744-ORD',
+125 silly get     'x-served-by': 'cache-ord1739-ORD',
 125 silly get     'x-cache': 'HIT',
 125 silly get     'x-cache-hits': '2',
-125 silly get     'x-timer': 'S1459915988.515460,VS0,VE0',
-125 silly get     vary: 'Accept' } ]
-126 verbose etag https://registry.npmjs.org/caseless from cache
-127 verbose get saving caseless to /Users/nex/.npm/registry.npmjs.org/caseless/.cache.json
-128 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-129 silly resolveWithNewModule caseless@0.11.0 checking installable status
-130 silly cache add args [ 'caseless@~0.11.0', null ]
-131 verbose cache add spec caseless@~0.11.0
-132 silly cache add parsed spec Result {
-132 silly cache add   raw: 'caseless@~0.11.0',
-132 silly cache add   scope: null,
-132 silly cache add   name: 'caseless',
-132 silly cache add   rawSpec: '~0.11.0',
-132 silly cache add   spec: '>=0.11.0 <0.12.0',
-132 silly cache add   type: 'range' }
-133 silly addNamed caseless@>=0.11.0 <0.12.0
-134 verbose addNamed ">=0.11.0 <0.12.0" is a valid semver range for caseless
-135 silly addNameRange { name: 'caseless', range: '>=0.11.0 <0.12.0', hasData: false }
-136 silly mapToRegistry name caseless
-137 silly mapToRegistry using default registry
-138 silly mapToRegistry registry https://registry.npmjs.org/
-139 silly mapToRegistry data Result {
-139 silly mapToRegistry   raw: 'caseless',
-139 silly mapToRegistry   scope: null,
-139 silly mapToRegistry   name: 'caseless',
-139 silly mapToRegistry   rawSpec: '',
-139 silly mapToRegistry   spec: 'latest',
-139 silly mapToRegistry   type: 'tag' }
-140 silly mapToRegistry uri https://registry.npmjs.org/caseless
-141 verbose addNameRange registry:https://registry.npmjs.org/caseless not in flight; fetching
-142 verbose request uri https://registry.npmjs.org/caseless
-143 verbose request no auth needed
-144 info attempt registry request try #1 at 11:13:08 PM
-145 verbose etag "31X3RJHEJY3DII8ZZ4JC45YBC"
-146 http request GET https://registry.npmjs.org/caseless
-147 http 304 https://registry.npmjs.org/caseless
-148 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-148 verbose headers   via: '1.1 varnish',
-148 verbose headers   'cache-control': 'max-age=300',
-148 verbose headers   etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
-148 verbose headers   age: '170',
-148 verbose headers   connection: 'keep-alive',
-148 verbose headers   'x-served-by': 'cache-ord1744-ORD',
-148 verbose headers   'x-cache': 'HIT',
-148 verbose headers   'x-cache-hits': '3',
-148 verbose headers   'x-timer': 'S1459915988.582945,VS0,VE0',
-148 verbose headers   vary: 'Accept' }
-149 silly get cb [ 304,
-149 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-149 silly get     via: '1.1 varnish',
-149 silly get     'cache-control': 'max-age=300',
-149 silly get     etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
-149 silly get     age: '170',
-149 silly get     connection: 'keep-alive',
-149 silly get     'x-served-by': 'cache-ord1744-ORD',
-149 silly get     'x-cache': 'HIT',
-149 silly get     'x-cache-hits': '3',
-149 silly get     'x-timer': 'S1459915988.582945,VS0,VE0',
-149 silly get     vary: 'Accept' } ]
-150 verbose etag https://registry.npmjs.org/caseless from cache
-151 verbose get saving caseless to /Users/nex/.npm/registry.npmjs.org/caseless/.cache.json
-152 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-153 silly addNameRange number 2 { name: 'caseless', range: '>=0.11.0 <0.12.0', hasData: true }
-154 silly addNameRange versions [ 'caseless',
-154 silly addNameRange   [ '0.1.0',
-154 silly addNameRange     '0.2.0',
-154 silly addNameRange     '0.3.0',
-154 silly addNameRange     '0.4.0',
-154 silly addNameRange     '0.5.0',
-154 silly addNameRange     '0.6.0',
-154 silly addNameRange     '0.7.0',
-154 silly addNameRange     '0.8.0',
-154 silly addNameRange     '0.9.0',
-154 silly addNameRange     '0.10.0',
-154 silly addNameRange     '0.11.0' ] ]
-155 silly addNamed caseless@0.11.0
-156 verbose addNamed "0.11.0" is a plain semver version for caseless
-157 silly cache afterAdd caseless@0.11.0
-158 verbose afterAdd /Users/nex/.npm/caseless/0.11.0/package/package.json not in flight; writing
-159 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-160 http 304 https://registry.npmjs.org/oauth-sign
-161 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-161 verbose headers   via: '1.1 varnish',
-161 verbose headers   'cache-control': 'max-age=300',
-161 verbose headers   etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
-161 verbose headers   age: '192',
-161 verbose headers   connection: 'keep-alive',
-161 verbose headers   'x-served-by': 'cache-ord1720-ORD',
-161 verbose headers   'x-cache': 'HIT',
-161 verbose headers   'x-cache-hits': '2',
-161 verbose headers   'x-timer': 'S1459915988.637956,VS0,VE0',
-161 verbose headers   vary: 'Accept-Encoding' }
-162 silly get cb [ 304,
-162 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-162 silly get     via: '1.1 varnish',
-162 silly get     'cache-control': 'max-age=300',
-162 silly get     etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
-162 silly get     age: '192',
-162 silly get     connection: 'keep-alive',
-162 silly get     'x-served-by': 'cache-ord1720-ORD',
-162 silly get     'x-cache': 'HIT',
-162 silly get     'x-cache-hits': '2',
-162 silly get     'x-timer': 'S1459915988.637956,VS0,VE0',
-162 silly get     vary: 'Accept-Encoding' } ]
-163 verbose etag https://registry.npmjs.org/oauth-sign from cache
-164 verbose get saving oauth-sign to /Users/nex/.npm/registry.npmjs.org/oauth-sign/.cache.json
-165 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-166 silly resolveWithNewModule oauth-sign@0.8.1 checking installable status
-167 silly cache add args [ 'oauth-sign@~0.8.0', null ]
-168 verbose cache add spec oauth-sign@~0.8.0
-169 silly cache add parsed spec Result {
-169 silly cache add   raw: 'oauth-sign@~0.8.0',
-169 silly cache add   scope: null,
-169 silly cache add   name: 'oauth-sign',
-169 silly cache add   rawSpec: '~0.8.0',
-169 silly cache add   spec: '>=0.8.0 <0.9.0',
-169 silly cache add   type: 'range' }
-170 silly addNamed oauth-sign@>=0.8.0 <0.9.0
-171 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for oauth-sign
-172 silly addNameRange { name: 'oauth-sign', range: '>=0.8.0 <0.9.0', hasData: false }
-173 silly mapToRegistry name oauth-sign
-174 silly mapToRegistry using default registry
-175 silly mapToRegistry registry https://registry.npmjs.org/
-176 silly mapToRegistry data Result {
-176 silly mapToRegistry   raw: 'oauth-sign',
-176 silly mapToRegistry   scope: null,
-176 silly mapToRegistry   name: 'oauth-sign',
-176 silly mapToRegistry   rawSpec: '',
-176 silly mapToRegistry   spec: 'latest',
-176 silly mapToRegistry   type: 'tag' }
-177 silly mapToRegistry uri https://registry.npmjs.org/oauth-sign
-178 verbose addNameRange registry:https://registry.npmjs.org/oauth-sign not in flight; fetching
-179 verbose request uri https://registry.npmjs.org/oauth-sign
-180 verbose request no auth needed
-181 info attempt registry request try #1 at 11:13:08 PM
-182 verbose etag "9P5ESQ0UNHJTR4Z0BAF8IOD2W"
-183 http request GET https://registry.npmjs.org/oauth-sign
-184 http 304 https://registry.npmjs.org/mime-types
-185 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-185 verbose headers   via: '1.1 varnish',
-185 verbose headers   'cache-control': 'max-age=300',
-185 verbose headers   etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
-185 verbose headers   age: '109',
-185 verbose headers   connection: 'keep-alive',
-185 verbose headers   'x-served-by': 'cache-ord1723-ORD',
-185 verbose headers   'x-cache': 'HIT',
-185 verbose headers   'x-cache-hits': '3',
-185 verbose headers   'x-timer': 'S1459915988.657636,VS0,VE0',
-185 verbose headers   vary: 'Accept' }
-186 silly get cb [ 304,
-186 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-186 silly get     via: '1.1 varnish',
-186 silly get     'cache-control': 'max-age=300',
-186 silly get     etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
-186 silly get     age: '109',
-186 silly get     connection: 'keep-alive',
-186 silly get     'x-served-by': 'cache-ord1723-ORD',
-186 silly get     'x-cache': 'HIT',
-186 silly get     'x-cache-hits': '3',
-186 silly get     'x-timer': 'S1459915988.657636,VS0,VE0',
-186 silly get     vary: 'Accept' } ]
-187 verbose etag https://registry.npmjs.org/mime-types from cache
-188 verbose get saving mime-types to /Users/nex/.npm/registry.npmjs.org/mime-types/.cache.json
-189 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-190 silly resolveWithNewModule mime-types@2.1.10 checking installable status
-191 silly cache add args [ 'mime-types@~2.1.7', null ]
-192 verbose cache add spec mime-types@~2.1.7
-193 silly cache add parsed spec Result {
-193 silly cache add   raw: 'mime-types@~2.1.7',
-193 silly cache add   scope: null,
-193 silly cache add   name: 'mime-types',
-193 silly cache add   rawSpec: '~2.1.7',
-193 silly cache add   spec: '>=2.1.7 <2.2.0',
-193 silly cache add   type: 'range' }
-194 silly addNamed mime-types@>=2.1.7 <2.2.0
-195 verbose addNamed ">=2.1.7 <2.2.0" is a valid semver range for mime-types
-196 silly addNameRange { name: 'mime-types', range: '>=2.1.7 <2.2.0', hasData: false }
-197 silly mapToRegistry name mime-types
-198 silly mapToRegistry using default registry
-199 silly mapToRegistry registry https://registry.npmjs.org/
-200 silly mapToRegistry data Result {
-200 silly mapToRegistry   raw: 'mime-types',
-200 silly mapToRegistry   scope: null,
-200 silly mapToRegistry   name: 'mime-types',
-200 silly mapToRegistry   rawSpec: '',
-200 silly mapToRegistry   spec: 'latest',
-200 silly mapToRegistry   type: 'tag' }
-201 silly mapToRegistry uri https://registry.npmjs.org/mime-types
-202 verbose addNameRange registry:https://registry.npmjs.org/mime-types not in flight; fetching
-203 verbose request uri https://registry.npmjs.org/mime-types
-204 verbose request no auth needed
-205 info attempt registry request try #1 at 11:13:08 PM
-206 verbose etag "6DRB8UMPN10CQEDW0PW2KP5BA"
-207 http request GET https://registry.npmjs.org/mime-types
-208 http 304 https://registry.npmjs.org/oauth-sign
-209 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-209 verbose headers   via: '1.1 varnish',
-209 verbose headers   'cache-control': 'max-age=300',
-209 verbose headers   etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
-209 verbose headers   age: '192',
-209 verbose headers   connection: 'keep-alive',
-209 verbose headers   'x-served-by': 'cache-ord1744-ORD',
-209 verbose headers   'x-cache': 'HIT',
-209 verbose headers   'x-cache-hits': '2',
-209 verbose headers   'x-timer': 'S1459915988.701641,VS0,VE0',
-209 verbose headers   vary: 'Accept-Encoding' }
-210 silly get cb [ 304,
-210 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-210 silly get     via: '1.1 varnish',
-210 silly get     'cache-control': 'max-age=300',
-210 silly get     etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
-210 silly get     age: '192',
-210 silly get     connection: 'keep-alive',
-210 silly get     'x-served-by': 'cache-ord1744-ORD',
-210 silly get     'x-cache': 'HIT',
-210 silly get     'x-cache-hits': '2',
-210 silly get     'x-timer': 'S1459915988.701641,VS0,VE0',
-210 silly get     vary: 'Accept-Encoding' } ]
-211 verbose etag https://registry.npmjs.org/oauth-sign from cache
-212 verbose get saving oauth-sign to /Users/nex/.npm/registry.npmjs.org/oauth-sign/.cache.json
-213 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-214 silly addNameRange number 2 { name: 'oauth-sign', range: '>=0.8.0 <0.9.0', hasData: true }
-215 silly addNameRange versions [ 'oauth-sign',
-215 silly addNameRange   [ '0.2.0',
-215 silly addNameRange     '0.3.0',
-215 silly addNameRange     '0.4.0',
-215 silly addNameRange     '0.5.0',
-215 silly addNameRange     '0.6.0',
-215 silly addNameRange     '0.7.0',
-215 silly addNameRange     '0.8.0',
-215 silly addNameRange     '0.8.1' ] ]
-216 silly addNamed oauth-sign@0.8.1
-217 verbose addNamed "0.8.1" is a plain semver version for oauth-sign
-218 silly cache afterAdd oauth-sign@0.8.1
-219 verbose afterAdd /Users/nex/.npm/oauth-sign/0.8.1/package/package.json not in flight; writing
+125 silly get     'x-timer': 'S1459916086.364135,VS0,VE0',
+125 silly get     vary: 'Accept-Encoding' } ]
+126 verbose get saving bl to /Users/nex/.npm/registry.npmjs.org/bl/.cache.json
+127 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+128 silly resolveWithNewModule bl@1.0.3 checking installable status
+129 silly cache add args [ 'bl@~1.0.0', null ]
+130 verbose cache add spec bl@~1.0.0
+131 silly cache add parsed spec Result {
+131 silly cache add   raw: 'bl@~1.0.0',
+131 silly cache add   scope: null,
+131 silly cache add   name: 'bl',
+131 silly cache add   rawSpec: '~1.0.0',
+131 silly cache add   spec: '>=1.0.0 <1.1.0',
+131 silly cache add   type: 'range' }
+132 silly addNamed bl@>=1.0.0 <1.1.0
+133 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for bl
+134 silly addNameRange { name: 'bl', range: '>=1.0.0 <1.1.0', hasData: false }
+135 silly mapToRegistry name bl
+136 silly mapToRegistry using default registry
+137 silly mapToRegistry registry https://registry.npmjs.org/
+138 silly mapToRegistry data Result {
+138 silly mapToRegistry   raw: 'bl',
+138 silly mapToRegistry   scope: null,
+138 silly mapToRegistry   name: 'bl',
+138 silly mapToRegistry   rawSpec: '',
+138 silly mapToRegistry   spec: 'latest',
+138 silly mapToRegistry   type: 'tag' }
+139 silly mapToRegistry uri https://registry.npmjs.org/bl
+140 verbose addNameRange registry:https://registry.npmjs.org/bl not in flight; fetching
+141 verbose request uri https://registry.npmjs.org/bl
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 11:14:46 PM
+144 verbose etag "D1B17DLIUZQGW163WXLZWCU6W"
+145 http request GET https://registry.npmjs.org/bl
+146 http 200 https://registry.npmjs.org/bl
+147 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 verbose headers   etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
+147 verbose headers   'content-type': 'application/json',
+147 verbose headers   'content-encoding': 'gzip',
+147 verbose headers   'cache-control': 'max-age=300',
+147 verbose headers   'content-length': '8248',
+147 verbose headers   'accept-ranges': 'bytes',
+147 verbose headers   date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+147 verbose headers   via: '1.1 varnish',
+147 verbose headers   age: '155',
+147 verbose headers   connection: 'keep-alive',
+147 verbose headers   'x-served-by': 'cache-ord1739-ORD',
+147 verbose headers   'x-cache': 'HIT',
+147 verbose headers   'x-cache-hits': '3',
+147 verbose headers   'x-timer': 'S1459916086.435964,VS0,VE0',
+147 verbose headers   vary: 'Accept-Encoding' }
+148 silly get cb [ 200,
+148 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+148 silly get     etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
+148 silly get     'content-type': 'application/json',
+148 silly get     'content-encoding': 'gzip',
+148 silly get     'cache-control': 'max-age=300',
+148 silly get     'content-length': '8248',
+148 silly get     'accept-ranges': 'bytes',
+148 silly get     date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+148 silly get     via: '1.1 varnish',
+148 silly get     age: '155',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-served-by': 'cache-ord1739-ORD',
+148 silly get     'x-cache': 'HIT',
+148 silly get     'x-cache-hits': '3',
+148 silly get     'x-timer': 'S1459916086.435964,VS0,VE0',
+148 silly get     vary: 'Accept-Encoding' } ]
+149 verbose get saving bl to /Users/nex/.npm/registry.npmjs.org/bl/.cache.json
+150 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+151 silly addNameRange number 2 { name: 'bl', range: '>=1.0.0 <1.1.0', hasData: true }
+152 silly addNameRange versions [ 'bl',
+152 silly addNameRange   [ '0.0.0',
+152 silly addNameRange     '0.1.0',
+152 silly addNameRange     '0.1.1',
+152 silly addNameRange     '0.2.0',
+152 silly addNameRange     '0.3.0',
+152 silly addNameRange     '0.4.0',
+152 silly addNameRange     '0.4.1',
+152 silly addNameRange     '0.4.2',
+152 silly addNameRange     '0.5.0',
+152 silly addNameRange     '0.6.0',
+152 silly addNameRange     '0.7.0',
+152 silly addNameRange     '0.8.0',
+152 silly addNameRange     '0.8.1',
+152 silly addNameRange     '0.8.2',
+152 silly addNameRange     '0.9.0',
+152 silly addNameRange     '0.9.1',
+152 silly addNameRange     '0.9.2',
+152 silly addNameRange     '0.9.3',
+152 silly addNameRange     '0.9.4',
+152 silly addNameRange     '1.0.0',
+152 silly addNameRange     '1.0.1',
+152 silly addNameRange     '0.9.5',
+152 silly addNameRange     '1.0.2',
+152 silly addNameRange     '1.0.3',
+152 silly addNameRange     '1.1.1',
+152 silly addNameRange     '1.1.2' ] ]
+153 silly addNamed bl@1.0.3
+154 verbose addNamed "1.0.3" is a plain semver version for bl
+155 silly cache afterAdd bl@1.0.3
+156 verbose afterAdd /Users/nex/.npm/bl/1.0.3/package/package.json not in flight; writing
+157 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+158 http 304 https://registry.npmjs.org/form-data
+159 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+159 verbose headers   via: '1.1 varnish',
+159 verbose headers   'cache-control': 'max-age=300',
+159 verbose headers   etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
+159 verbose headers   age: '98',
+159 verbose headers   connection: 'keep-alive',
+159 verbose headers   'x-served-by': 'cache-ord1725-ORD',
+159 verbose headers   'x-cache': 'HIT',
+159 verbose headers   'x-cache-hits': '4',
+159 verbose headers   'x-timer': 'S1459916086.485046,VS0,VE0',
+159 verbose headers   vary: 'Accept' }
+160 silly get cb [ 304,
+160 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+160 silly get     via: '1.1 varnish',
+160 silly get     'cache-control': 'max-age=300',
+160 silly get     etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
+160 silly get     age: '98',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-served-by': 'cache-ord1725-ORD',
+160 silly get     'x-cache': 'HIT',
+160 silly get     'x-cache-hits': '4',
+160 silly get     'x-timer': 'S1459916086.485046,VS0,VE0',
+160 silly get     vary: 'Accept' } ]
+161 verbose etag https://registry.npmjs.org/form-data from cache
+162 verbose get saving form-data to /Users/nex/.npm/registry.npmjs.org/form-data/.cache.json
+163 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+164 http 304 https://registry.npmjs.org/mime-types
+165 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+165 verbose headers   via: '1.1 varnish',
+165 verbose headers   'cache-control': 'max-age=300',
+165 verbose headers   etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
+165 verbose headers   age: '207',
+165 verbose headers   connection: 'keep-alive',
+165 verbose headers   'x-served-by': 'cache-ord1747-ORD',
+165 verbose headers   'x-cache': 'HIT',
+165 verbose headers   'x-cache-hits': '5',
+165 verbose headers   'x-timer': 'S1459916086.484609,VS0,VE0',
+165 verbose headers   vary: 'Accept' }
+166 silly get cb [ 304,
+166 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+166 silly get     via: '1.1 varnish',
+166 silly get     'cache-control': 'max-age=300',
+166 silly get     etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
+166 silly get     age: '207',
+166 silly get     connection: 'keep-alive',
+166 silly get     'x-served-by': 'cache-ord1747-ORD',
+166 silly get     'x-cache': 'HIT',
+166 silly get     'x-cache-hits': '5',
+166 silly get     'x-timer': 'S1459916086.484609,VS0,VE0',
+166 silly get     vary: 'Accept' } ]
+167 verbose etag https://registry.npmjs.org/mime-types from cache
+168 verbose get saving mime-types to /Users/nex/.npm/registry.npmjs.org/mime-types/.cache.json
+169 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+170 http 304 https://registry.npmjs.org/oauth-sign
+171 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+171 verbose headers   via: '1.1 varnish',
+171 verbose headers   'cache-control': 'max-age=300',
+171 verbose headers   etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
+171 verbose headers   age: '290',
+171 verbose headers   connection: 'keep-alive',
+171 verbose headers   'x-served-by': 'cache-ord1722-ORD',
+171 verbose headers   'x-cache': 'HIT',
+171 verbose headers   'x-cache-hits': '2',
+171 verbose headers   'x-timer': 'S1459916086.484423,VS0,VE0',
+171 verbose headers   vary: 'Accept-Encoding' }
+172 silly get cb [ 304,
+172 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+172 silly get     via: '1.1 varnish',
+172 silly get     'cache-control': 'max-age=300',
+172 silly get     etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
+172 silly get     age: '290',
+172 silly get     connection: 'keep-alive',
+172 silly get     'x-served-by': 'cache-ord1722-ORD',
+172 silly get     'x-cache': 'HIT',
+172 silly get     'x-cache-hits': '2',
+172 silly get     'x-timer': 'S1459916086.484423,VS0,VE0',
+172 silly get     vary: 'Accept-Encoding' } ]
+173 verbose etag https://registry.npmjs.org/oauth-sign from cache
+174 verbose get saving oauth-sign to /Users/nex/.npm/registry.npmjs.org/oauth-sign/.cache.json
+175 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+176 silly resolveWithNewModule form-data@1.0.0-rc4 checking installable status
+177 silly cache add args [ 'form-data@~1.0.0-rc3', null ]
+178 verbose cache add spec form-data@~1.0.0-rc3
+179 silly cache add parsed spec Result {
+179 silly cache add   raw: 'form-data@~1.0.0-rc3',
+179 silly cache add   scope: null,
+179 silly cache add   name: 'form-data',
+179 silly cache add   rawSpec: '~1.0.0-rc3',
+179 silly cache add   spec: '>=1.0.0-rc3 <1.1.0',
+179 silly cache add   type: 'range' }
+180 silly addNamed form-data@>=1.0.0-rc3 <1.1.0
+181 verbose addNamed ">=1.0.0-rc3 <1.1.0" is a valid semver range for form-data
+182 silly addNameRange { name: 'form-data',
+182 silly addNameRange   range: '>=1.0.0-rc3 <1.1.0',
+182 silly addNameRange   hasData: false }
+183 silly mapToRegistry name form-data
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry data Result {
+186 silly mapToRegistry   raw: 'form-data',
+186 silly mapToRegistry   scope: null,
+186 silly mapToRegistry   name: 'form-data',
+186 silly mapToRegistry   rawSpec: '',
+186 silly mapToRegistry   spec: 'latest',
+186 silly mapToRegistry   type: 'tag' }
+187 silly mapToRegistry uri https://registry.npmjs.org/form-data
+188 verbose addNameRange registry:https://registry.npmjs.org/form-data not in flight; fetching
+189 silly resolveWithNewModule mime-types@2.1.10 checking installable status
+190 silly cache add args [ 'mime-types@~2.1.7', null ]
+191 verbose cache add spec mime-types@~2.1.7
+192 silly cache add parsed spec Result {
+192 silly cache add   raw: 'mime-types@~2.1.7',
+192 silly cache add   scope: null,
+192 silly cache add   name: 'mime-types',
+192 silly cache add   rawSpec: '~2.1.7',
+192 silly cache add   spec: '>=2.1.7 <2.2.0',
+192 silly cache add   type: 'range' }
+193 silly addNamed mime-types@>=2.1.7 <2.2.0
+194 verbose addNamed ">=2.1.7 <2.2.0" is a valid semver range for mime-types
+195 silly addNameRange { name: 'mime-types', range: '>=2.1.7 <2.2.0', hasData: false }
+196 silly mapToRegistry name mime-types
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry data Result {
+199 silly mapToRegistry   raw: 'mime-types',
+199 silly mapToRegistry   scope: null,
+199 silly mapToRegistry   name: 'mime-types',
+199 silly mapToRegistry   rawSpec: '',
+199 silly mapToRegistry   spec: 'latest',
+199 silly mapToRegistry   type: 'tag' }
+200 silly mapToRegistry uri https://registry.npmjs.org/mime-types
+201 verbose addNameRange registry:https://registry.npmjs.org/mime-types not in flight; fetching
+202 silly resolveWithNewModule oauth-sign@0.8.1 checking installable status
+203 silly cache add args [ 'oauth-sign@~0.8.0', null ]
+204 verbose cache add spec oauth-sign@~0.8.0
+205 silly cache add parsed spec Result {
+205 silly cache add   raw: 'oauth-sign@~0.8.0',
+205 silly cache add   scope: null,
+205 silly cache add   name: 'oauth-sign',
+205 silly cache add   rawSpec: '~0.8.0',
+205 silly cache add   spec: '>=0.8.0 <0.9.0',
+205 silly cache add   type: 'range' }
+206 silly addNamed oauth-sign@>=0.8.0 <0.9.0
+207 verbose addNamed ">=0.8.0 <0.9.0" is a valid semver range for oauth-sign
+208 silly addNameRange { name: 'oauth-sign', range: '>=0.8.0 <0.9.0', hasData: false }
+209 silly mapToRegistry name oauth-sign
+210 silly mapToRegistry using default registry
+211 silly mapToRegistry registry https://registry.npmjs.org/
+212 silly mapToRegistry data Result {
+212 silly mapToRegistry   raw: 'oauth-sign',
+212 silly mapToRegistry   scope: null,
+212 silly mapToRegistry   name: 'oauth-sign',
+212 silly mapToRegistry   rawSpec: '',
+212 silly mapToRegistry   spec: 'latest',
+212 silly mapToRegistry   type: 'tag' }
+213 silly mapToRegistry uri https://registry.npmjs.org/oauth-sign
+214 verbose addNameRange registry:https://registry.npmjs.org/oauth-sign not in flight; fetching
+215 http 304 https://registry.npmjs.org/caseless
+216 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+216 verbose headers   via: '1.1 varnish',
+216 verbose headers   'cache-control': 'max-age=300',
+216 verbose headers   etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
+216 verbose headers   age: '268',
+216 verbose headers   connection: 'keep-alive',
+216 verbose headers   'x-served-by': 'cache-ord1741-ORD',
+216 verbose headers   'x-cache': 'HIT',
+216 verbose headers   'x-cache-hits': '2',
+216 verbose headers   'x-timer': 'S1459916086.497279,VS0,VE0',
+216 verbose headers   vary: 'Accept' }
+217 silly get cb [ 304,
+217 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+217 silly get     via: '1.1 varnish',
+217 silly get     'cache-control': 'max-age=300',
+217 silly get     etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
+217 silly get     age: '268',
+217 silly get     connection: 'keep-alive',
+217 silly get     'x-served-by': 'cache-ord1741-ORD',
+217 silly get     'x-cache': 'HIT',
+217 silly get     'x-cache-hits': '2',
+217 silly get     'x-timer': 'S1459916086.497279,VS0,VE0',
+217 silly get     vary: 'Accept' } ]
+218 verbose etag https://registry.npmjs.org/caseless from cache
+219 verbose get saving caseless to /Users/nex/.npm/registry.npmjs.org/caseless/.cache.json
 220 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-221 http 304 https://registry.npmjs.org/mime-types
-222 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-222 verbose headers   via: '1.1 varnish',
-222 verbose headers   'cache-control': 'max-age=300',
-222 verbose headers   etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
-222 verbose headers   age: '109',
-222 verbose headers   connection: 'keep-alive',
-222 verbose headers   'x-served-by': 'cache-ord1720-ORD',
-222 verbose headers   'x-cache': 'HIT',
-222 verbose headers   'x-cache-hits': '1',
-222 verbose headers   'x-timer': 'S1459915988.730158,VS0,VE0',
-222 verbose headers   vary: 'Accept' }
-223 silly get cb [ 304,
-223 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-223 silly get     via: '1.1 varnish',
-223 silly get     'cache-control': 'max-age=300',
-223 silly get     etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
-223 silly get     age: '109',
-223 silly get     connection: 'keep-alive',
-223 silly get     'x-served-by': 'cache-ord1720-ORD',
-223 silly get     'x-cache': 'HIT',
-223 silly get     'x-cache-hits': '1',
-223 silly get     'x-timer': 'S1459915988.730158,VS0,VE0',
-223 silly get     vary: 'Accept' } ]
-224 verbose etag https://registry.npmjs.org/mime-types from cache
-225 verbose get saving mime-types to /Users/nex/.npm/registry.npmjs.org/mime-types/.cache.json
-226 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-227 silly addNameRange number 2 { name: 'mime-types', range: '>=2.1.7 <2.2.0', hasData: true }
-228 silly addNameRange versions [ 'mime-types',
-228 silly addNameRange   [ '0.1.0',
-228 silly addNameRange     '1.0.0',
-228 silly addNameRange     '1.0.1',
-228 silly addNameRange     '1.0.2',
-228 silly addNameRange     '2.0.0',
-228 silly addNameRange     '2.0.1',
-228 silly addNameRange     '2.0.2',
-228 silly addNameRange     '2.0.3',
-228 silly addNameRange     '2.0.4',
-228 silly addNameRange     '2.0.5',
-228 silly addNameRange     '2.0.6',
-228 silly addNameRange     '2.0.7',
-228 silly addNameRange     '2.0.8',
-228 silly addNameRange     '2.0.9',
-228 silly addNameRange     '2.0.10',
-228 silly addNameRange     '2.0.11',
-228 silly addNameRange     '2.0.12',
-228 silly addNameRange     '2.0.13',
-228 silly addNameRange     '2.0.14',
-228 silly addNameRange     '2.1.0',
-228 silly addNameRange     '2.1.1',
-228 silly addNameRange     '2.1.2',
-228 silly addNameRange     '2.1.3',
-228 silly addNameRange     '2.1.4',
-228 silly addNameRange     '2.1.5',
-228 silly addNameRange     '2.1.6',
-228 silly addNameRange     '2.1.7',
-228 silly addNameRange     '2.1.8',
-228 silly addNameRange     '2.1.9',
-228 silly addNameRange     '2.1.10' ] ]
-229 silly addNamed mime-types@2.1.10
-230 verbose addNamed "2.1.10" is a plain semver version for mime-types
-231 silly cache afterAdd mime-types@2.1.10
-232 verbose afterAdd /Users/nex/.npm/mime-types/2.1.10/package/package.json not in flight; writing
-233 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-234 http 304 https://registry.npmjs.org/form-data
-235 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-235 verbose headers   via: '1.1 varnish',
-235 verbose headers   'cache-control': 'max-age=300',
-235 verbose headers   etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
-235 verbose headers   age: '0',
-235 verbose headers   connection: 'keep-alive',
-235 verbose headers   'x-served-by': 'cache-ord1724-ORD',
-235 verbose headers   'x-cache': 'HIT',
-235 verbose headers   'x-cache-hits': '1',
-235 verbose headers   'x-timer': 'S1459915988.656865,VS0,VE86',
-235 verbose headers   vary: 'Accept' }
-236 silly get cb [ 304,
-236 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-236 silly get     via: '1.1 varnish',
-236 silly get     'cache-control': 'max-age=300',
-236 silly get     etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
-236 silly get     age: '0',
-236 silly get     connection: 'keep-alive',
-236 silly get     'x-served-by': 'cache-ord1724-ORD',
-236 silly get     'x-cache': 'HIT',
-236 silly get     'x-cache-hits': '1',
-236 silly get     'x-timer': 'S1459915988.656865,VS0,VE86',
-236 silly get     vary: 'Accept' } ]
-237 verbose etag https://registry.npmjs.org/form-data from cache
-238 verbose get saving form-data to /Users/nex/.npm/registry.npmjs.org/form-data/.cache.json
-239 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-240 silly resolveWithNewModule form-data@1.0.0-rc4 checking installable status
-241 silly cache add args [ 'form-data@~1.0.0-rc3', null ]
-242 verbose cache add spec form-data@~1.0.0-rc3
-243 silly cache add parsed spec Result {
-243 silly cache add   raw: 'form-data@~1.0.0-rc3',
-243 silly cache add   scope: null,
-243 silly cache add   name: 'form-data',
-243 silly cache add   rawSpec: '~1.0.0-rc3',
-243 silly cache add   spec: '>=1.0.0-rc3 <1.1.0',
-243 silly cache add   type: 'range' }
-244 silly addNamed form-data@>=1.0.0-rc3 <1.1.0
-245 verbose addNamed ">=1.0.0-rc3 <1.1.0" is a valid semver range for form-data
-246 silly addNameRange { name: 'form-data',
-246 silly addNameRange   range: '>=1.0.0-rc3 <1.1.0',
-246 silly addNameRange   hasData: false }
-247 silly mapToRegistry name form-data
-248 silly mapToRegistry using default registry
-249 silly mapToRegistry registry https://registry.npmjs.org/
-250 silly mapToRegistry data Result {
-250 silly mapToRegistry   raw: 'form-data',
-250 silly mapToRegistry   scope: null,
-250 silly mapToRegistry   name: 'form-data',
-250 silly mapToRegistry   rawSpec: '',
-250 silly mapToRegistry   spec: 'latest',
-250 silly mapToRegistry   type: 'tag' }
-251 silly mapToRegistry uri https://registry.npmjs.org/form-data
-252 verbose addNameRange registry:https://registry.npmjs.org/form-data not in flight; fetching
-253 verbose request uri https://registry.npmjs.org/form-data
-254 verbose request no auth needed
-255 info attempt registry request try #1 at 11:13:08 PM
-256 verbose etag "APS8DEJRIXCJTY5CF0KT4FD71"
-257 http request GET https://registry.npmjs.org/form-data
-258 http 304 https://registry.npmjs.org/form-data
-259 verbose headers { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-259 verbose headers   via: '1.1 varnish',
-259 verbose headers   'cache-control': 'max-age=300',
-259 verbose headers   etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
-259 verbose headers   age: '0',
-259 verbose headers   connection: 'keep-alive',
-259 verbose headers   'x-served-by': 'cache-ord1723-ORD',
-259 verbose headers   'x-cache': 'HIT',
-259 verbose headers   'x-cache-hits': '1',
-259 verbose headers   'x-timer': 'S1459915988.810043,VS0,VE0',
-259 verbose headers   vary: 'Accept' }
-260 silly get cb [ 304,
-260 silly get   { date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-260 silly get     via: '1.1 varnish',
-260 silly get     'cache-control': 'max-age=300',
-260 silly get     etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
-260 silly get     age: '0',
-260 silly get     connection: 'keep-alive',
-260 silly get     'x-served-by': 'cache-ord1723-ORD',
-260 silly get     'x-cache': 'HIT',
-260 silly get     'x-cache-hits': '1',
-260 silly get     'x-timer': 'S1459915988.810043,VS0,VE0',
-260 silly get     vary: 'Accept' } ]
-261 verbose etag https://registry.npmjs.org/form-data from cache
-262 verbose get saving form-data to /Users/nex/.npm/registry.npmjs.org/form-data/.cache.json
-263 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-264 silly addNameRange number 2 { name: 'form-data', range: '>=1.0.0-rc3 <1.1.0', hasData: true }
-265 silly addNameRange versions [ 'form-data',
-265 silly addNameRange   [ '0.0.0',
-265 silly addNameRange     '0.0.2',
-265 silly addNameRange     '0.0.3',
-265 silly addNameRange     '0.0.4',
-265 silly addNameRange     '0.0.5',
-265 silly addNameRange     '0.0.6',
-265 silly addNameRange     '0.0.7',
-265 silly addNameRange     '0.0.8',
-265 silly addNameRange     '0.0.9',
-265 silly addNameRange     '0.0.10',
-265 silly addNameRange     '0.1.0',
-265 silly addNameRange     '0.1.1',
-265 silly addNameRange     '0.1.2',
-265 silly addNameRange     '0.1.3',
-265 silly addNameRange     '0.1.4',
-265 silly addNameRange     '0.2.0',
-265 silly addNameRange     '1.0.0-rc1',
-265 silly addNameRange     '1.0.0-rc2',
-265 silly addNameRange     '1.0.0-rc3',
-265 silly addNameRange     '1.0.0-rc4' ] ]
-266 silly addNamed form-data@1.0.0-rc4
-267 verbose addNamed "1.0.0-rc4" is a plain semver version for form-data
-268 silly cache afterAdd form-data@1.0.0-rc4
-269 verbose afterAdd /Users/nex/.npm/form-data/1.0.0-rc4/package/package.json not in flight; writing
-270 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-271 http 200 https://registry.npmjs.org/bl
-272 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-272 verbose headers   etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
-272 verbose headers   'content-type': 'application/json',
-272 verbose headers   'content-encoding': 'gzip',
-272 verbose headers   'cache-control': 'max-age=300',
-272 verbose headers   'content-length': '8248',
-272 verbose headers   'accept-ranges': 'bytes',
-272 verbose headers   date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-272 verbose headers   via: '1.1 varnish',
-272 verbose headers   age: '57',
-272 verbose headers   connection: 'keep-alive',
-272 verbose headers   'x-served-by': 'cache-ord1726-ORD',
-272 verbose headers   'x-cache': 'HIT',
-272 verbose headers   'x-cache-hits': '1',
-272 verbose headers   'x-timer': 'S1459915988.637813,VS0,VE0',
-272 verbose headers   vary: 'Accept-Encoding' }
-273 silly get cb [ 200,
-273 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-273 silly get     etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
-273 silly get     'content-type': 'application/json',
-273 silly get     'content-encoding': 'gzip',
-273 silly get     'cache-control': 'max-age=300',
-273 silly get     'content-length': '8248',
-273 silly get     'accept-ranges': 'bytes',
-273 silly get     date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-273 silly get     via: '1.1 varnish',
-273 silly get     age: '57',
-273 silly get     connection: 'keep-alive',
-273 silly get     'x-served-by': 'cache-ord1726-ORD',
-273 silly get     'x-cache': 'HIT',
-273 silly get     'x-cache-hits': '1',
-273 silly get     'x-timer': 'S1459915988.637813,VS0,VE0',
-273 silly get     vary: 'Accept-Encoding' } ]
-274 verbose get saving bl to /Users/nex/.npm/registry.npmjs.org/bl/.cache.json
+221 verbose request uri https://registry.npmjs.org/form-data
+222 verbose request no auth needed
+223 info attempt registry request try #1 at 11:14:46 PM
+224 verbose etag "APS8DEJRIXCJTY5CF0KT4FD71"
+225 http request GET https://registry.npmjs.org/form-data
+226 verbose request uri https://registry.npmjs.org/mime-types
+227 verbose request no auth needed
+228 info attempt registry request try #1 at 11:14:46 PM
+229 verbose etag "6DRB8UMPN10CQEDW0PW2KP5BA"
+230 http request GET https://registry.npmjs.org/mime-types
+231 verbose request uri https://registry.npmjs.org/oauth-sign
+232 verbose request no auth needed
+233 info attempt registry request try #1 at 11:14:46 PM
+234 verbose etag "9P5ESQ0UNHJTR4Z0BAF8IOD2W"
+235 http request GET https://registry.npmjs.org/oauth-sign
+236 silly resolveWithNewModule caseless@0.11.0 checking installable status
+237 silly cache add args [ 'caseless@~0.11.0', null ]
+238 verbose cache add spec caseless@~0.11.0
+239 silly cache add parsed spec Result {
+239 silly cache add   raw: 'caseless@~0.11.0',
+239 silly cache add   scope: null,
+239 silly cache add   name: 'caseless',
+239 silly cache add   rawSpec: '~0.11.0',
+239 silly cache add   spec: '>=0.11.0 <0.12.0',
+239 silly cache add   type: 'range' }
+240 silly addNamed caseless@>=0.11.0 <0.12.0
+241 verbose addNamed ">=0.11.0 <0.12.0" is a valid semver range for caseless
+242 silly addNameRange { name: 'caseless', range: '>=0.11.0 <0.12.0', hasData: false }
+243 silly mapToRegistry name caseless
+244 silly mapToRegistry using default registry
+245 silly mapToRegistry registry https://registry.npmjs.org/
+246 silly mapToRegistry data Result {
+246 silly mapToRegistry   raw: 'caseless',
+246 silly mapToRegistry   scope: null,
+246 silly mapToRegistry   name: 'caseless',
+246 silly mapToRegistry   rawSpec: '',
+246 silly mapToRegistry   spec: 'latest',
+246 silly mapToRegistry   type: 'tag' }
+247 silly mapToRegistry uri https://registry.npmjs.org/caseless
+248 verbose addNameRange registry:https://registry.npmjs.org/caseless not in flight; fetching
+249 verbose request uri https://registry.npmjs.org/caseless
+250 verbose request no auth needed
+251 info attempt registry request try #1 at 11:14:46 PM
+252 verbose etag "31X3RJHEJY3DII8ZZ4JC45YBC"
+253 http request GET https://registry.npmjs.org/caseless
+254 http 304 https://registry.npmjs.org/form-data
+255 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+255 verbose headers   via: '1.1 varnish',
+255 verbose headers   'cache-control': 'max-age=300',
+255 verbose headers   etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
+255 verbose headers   age: '98',
+255 verbose headers   connection: 'keep-alive',
+255 verbose headers   'x-served-by': 'cache-ord1739-ORD',
+255 verbose headers   'x-cache': 'HIT',
+255 verbose headers   'x-cache-hits': '1',
+255 verbose headers   'x-timer': 'S1459916086.565466,VS0,VE0',
+255 verbose headers   vary: 'Accept' }
+256 silly get cb [ 304,
+256 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+256 silly get     via: '1.1 varnish',
+256 silly get     'cache-control': 'max-age=300',
+256 silly get     etag: '"APS8DEJRIXCJTY5CF0KT4FD71"',
+256 silly get     age: '98',
+256 silly get     connection: 'keep-alive',
+256 silly get     'x-served-by': 'cache-ord1739-ORD',
+256 silly get     'x-cache': 'HIT',
+256 silly get     'x-cache-hits': '1',
+256 silly get     'x-timer': 'S1459916086.565466,VS0,VE0',
+256 silly get     vary: 'Accept' } ]
+257 verbose etag https://registry.npmjs.org/form-data from cache
+258 verbose get saving form-data to /Users/nex/.npm/registry.npmjs.org/form-data/.cache.json
+259 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+260 silly addNameRange number 2 { name: 'form-data', range: '>=1.0.0-rc3 <1.1.0', hasData: true }
+261 silly addNameRange versions [ 'form-data',
+261 silly addNameRange   [ '0.0.0',
+261 silly addNameRange     '0.0.2',
+261 silly addNameRange     '0.0.3',
+261 silly addNameRange     '0.0.4',
+261 silly addNameRange     '0.0.5',
+261 silly addNameRange     '0.0.6',
+261 silly addNameRange     '0.0.7',
+261 silly addNameRange     '0.0.8',
+261 silly addNameRange     '0.0.9',
+261 silly addNameRange     '0.0.10',
+261 silly addNameRange     '0.1.0',
+261 silly addNameRange     '0.1.1',
+261 silly addNameRange     '0.1.2',
+261 silly addNameRange     '0.1.3',
+261 silly addNameRange     '0.1.4',
+261 silly addNameRange     '0.2.0',
+261 silly addNameRange     '1.0.0-rc1',
+261 silly addNameRange     '1.0.0-rc2',
+261 silly addNameRange     '1.0.0-rc3',
+261 silly addNameRange     '1.0.0-rc4' ] ]
+262 silly addNamed form-data@1.0.0-rc4
+263 verbose addNamed "1.0.0-rc4" is a plain semver version for form-data
+264 http 304 https://registry.npmjs.org/oauth-sign
+265 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+265 verbose headers   via: '1.1 varnish',
+265 verbose headers   'cache-control': 'max-age=300',
+265 verbose headers   etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
+265 verbose headers   age: '290',
+265 verbose headers   connection: 'keep-alive',
+265 verbose headers   'x-served-by': 'cache-ord1747-ORD',
+265 verbose headers   'x-cache': 'HIT',
+265 verbose headers   'x-cache-hits': '6',
+265 verbose headers   'x-timer': 'S1459916086.569426,VS0,VE0',
+265 verbose headers   vary: 'Accept-Encoding' }
+266 silly get cb [ 304,
+266 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+266 silly get     via: '1.1 varnish',
+266 silly get     'cache-control': 'max-age=300',
+266 silly get     etag: '"9P5ESQ0UNHJTR4Z0BAF8IOD2W"',
+266 silly get     age: '290',
+266 silly get     connection: 'keep-alive',
+266 silly get     'x-served-by': 'cache-ord1747-ORD',
+266 silly get     'x-cache': 'HIT',
+266 silly get     'x-cache-hits': '6',
+266 silly get     'x-timer': 'S1459916086.569426,VS0,VE0',
+266 silly get     vary: 'Accept-Encoding' } ]
+267 verbose etag https://registry.npmjs.org/oauth-sign from cache
+268 verbose get saving oauth-sign to /Users/nex/.npm/registry.npmjs.org/oauth-sign/.cache.json
+269 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+270 http 304 https://registry.npmjs.org/mime-types
+271 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+271 verbose headers   via: '1.1 varnish',
+271 verbose headers   'cache-control': 'max-age=300',
+271 verbose headers   etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
+271 verbose headers   age: '207',
+271 verbose headers   connection: 'keep-alive',
+271 verbose headers   'x-served-by': 'cache-ord1725-ORD',
+271 verbose headers   'x-cache': 'HIT',
+271 verbose headers   'x-cache-hits': '4',
+271 verbose headers   'x-timer': 'S1459916086.570095,VS0,VE0',
+271 verbose headers   vary: 'Accept' }
+272 silly get cb [ 304,
+272 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+272 silly get     via: '1.1 varnish',
+272 silly get     'cache-control': 'max-age=300',
+272 silly get     etag: '"6DRB8UMPN10CQEDW0PW2KP5BA"',
+272 silly get     age: '207',
+272 silly get     connection: 'keep-alive',
+272 silly get     'x-served-by': 'cache-ord1725-ORD',
+272 silly get     'x-cache': 'HIT',
+272 silly get     'x-cache-hits': '4',
+272 silly get     'x-timer': 'S1459916086.570095,VS0,VE0',
+272 silly get     vary: 'Accept' } ]
+273 verbose etag https://registry.npmjs.org/mime-types from cache
+274 verbose get saving mime-types to /Users/nex/.npm/registry.npmjs.org/mime-types/.cache.json
 275 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-276 silly resolveWithNewModule bl@1.0.3 checking installable status
-277 silly cache add args [ 'bl@~1.0.0', null ]
-278 verbose cache add spec bl@~1.0.0
-279 silly cache add parsed spec Result {
-279 silly cache add   raw: 'bl@~1.0.0',
-279 silly cache add   scope: null,
-279 silly cache add   name: 'bl',
-279 silly cache add   rawSpec: '~1.0.0',
-279 silly cache add   spec: '>=1.0.0 <1.1.0',
-279 silly cache add   type: 'range' }
-280 silly addNamed bl@>=1.0.0 <1.1.0
-281 verbose addNamed ">=1.0.0 <1.1.0" is a valid semver range for bl
-282 silly addNameRange { name: 'bl', range: '>=1.0.0 <1.1.0', hasData: false }
-283 silly mapToRegistry name bl
-284 silly mapToRegistry using default registry
-285 silly mapToRegistry registry https://registry.npmjs.org/
-286 silly mapToRegistry data Result {
-286 silly mapToRegistry   raw: 'bl',
-286 silly mapToRegistry   scope: null,
-286 silly mapToRegistry   name: 'bl',
-286 silly mapToRegistry   rawSpec: '',
-286 silly mapToRegistry   spec: 'latest',
-286 silly mapToRegistry   type: 'tag' }
-287 silly mapToRegistry uri https://registry.npmjs.org/bl
-288 verbose addNameRange registry:https://registry.npmjs.org/bl not in flight; fetching
-289 verbose request uri https://registry.npmjs.org/bl
-290 verbose request no auth needed
-291 info attempt registry request try #1 at 11:13:08 PM
-292 verbose etag "D1B17DLIUZQGW163WXLZWCU6W"
-293 http request GET https://registry.npmjs.org/bl
-294 http 200 https://registry.npmjs.org/bl
-295 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-295 verbose headers   etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
-295 verbose headers   'content-type': 'application/json',
-295 verbose headers   'content-encoding': 'gzip',
-295 verbose headers   'cache-control': 'max-age=300',
-295 verbose headers   'content-length': '8248',
-295 verbose headers   'accept-ranges': 'bytes',
-295 verbose headers   date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-295 verbose headers   via: '1.1 varnish',
-295 verbose headers   age: '57',
-295 verbose headers   connection: 'keep-alive',
-295 verbose headers   'x-served-by': 'cache-ord1744-ORD',
-295 verbose headers   'x-cache': 'HIT',
-295 verbose headers   'x-cache-hits': '1',
-295 verbose headers   'x-timer': 'S1459915988.954047,VS0,VE0',
-295 verbose headers   vary: 'Accept-Encoding' }
-296 silly get cb [ 200,
-296 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
-296 silly get     etag: '"BDUN8H7IOJ18URYVTUPM1P5YM"',
-296 silly get     'content-type': 'application/json',
-296 silly get     'content-encoding': 'gzip',
-296 silly get     'cache-control': 'max-age=300',
-296 silly get     'content-length': '8248',
-296 silly get     'accept-ranges': 'bytes',
-296 silly get     date: 'Wed, 06 Apr 2016 04:13:08 GMT',
-296 silly get     via: '1.1 varnish',
-296 silly get     age: '57',
-296 silly get     connection: 'keep-alive',
-296 silly get     'x-served-by': 'cache-ord1744-ORD',
-296 silly get     'x-cache': 'HIT',
-296 silly get     'x-cache-hits': '1',
-296 silly get     'x-timer': 'S1459915988.954047,VS0,VE0',
-296 silly get     vary: 'Accept-Encoding' } ]
-297 verbose get saving bl to /Users/nex/.npm/registry.npmjs.org/bl/.cache.json
-298 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
-299 silly addNameRange number 2 { name: 'bl', range: '>=1.0.0 <1.1.0', hasData: true }
-300 silly addNameRange versions [ 'bl',
-300 silly addNameRange   [ '0.0.0',
-300 silly addNameRange     '0.1.0',
-300 silly addNameRange     '0.1.1',
-300 silly addNameRange     '0.2.0',
-300 silly addNameRange     '0.3.0',
-300 silly addNameRange     '0.4.0',
-300 silly addNameRange     '0.4.1',
-300 silly addNameRange     '0.4.2',
-300 silly addNameRange     '0.5.0',
-300 silly addNameRange     '0.6.0',
-300 silly addNameRange     '0.7.0',
-300 silly addNameRange     '0.8.0',
-300 silly addNameRange     '0.8.1',
-300 silly addNameRange     '0.8.2',
-300 silly addNameRange     '0.9.0',
-300 silly addNameRange     '0.9.1',
-300 silly addNameRange     '0.9.2',
-300 silly addNameRange     '0.9.3',
-300 silly addNameRange     '0.9.4',
-300 silly addNameRange     '1.0.0',
-300 silly addNameRange     '1.0.1',
-300 silly addNameRange     '0.9.5',
-300 silly addNameRange     '1.0.2',
-300 silly addNameRange     '1.0.3',
-300 silly addNameRange     '1.1.1',
-300 silly addNameRange     '1.1.2' ] ]
-301 silly addNamed bl@1.0.3
-302 verbose addNamed "1.0.3" is a plain semver version for bl
-303 silly cache afterAdd bl@1.0.3
-304 verbose afterAdd /Users/nex/.npm/bl/1.0.3/package/package.json not in flight; writing
+276 http 304 https://registry.npmjs.org/caseless
+277 verbose headers { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+277 verbose headers   via: '1.1 varnish',
+277 verbose headers   'cache-control': 'max-age=300',
+277 verbose headers   etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
+277 verbose headers   age: '268',
+277 verbose headers   connection: 'keep-alive',
+277 verbose headers   'x-served-by': 'cache-ord1722-ORD',
+277 verbose headers   'x-cache': 'HIT',
+277 verbose headers   'x-cache-hits': '5',
+277 verbose headers   'x-timer': 'S1459916086.571090,VS0,VE0',
+277 verbose headers   vary: 'Accept' }
+278 silly get cb [ 304,
+278 silly get   { date: 'Wed, 06 Apr 2016 04:14:46 GMT',
+278 silly get     via: '1.1 varnish',
+278 silly get     'cache-control': 'max-age=300',
+278 silly get     etag: '"31X3RJHEJY3DII8ZZ4JC45YBC"',
+278 silly get     age: '268',
+278 silly get     connection: 'keep-alive',
+278 silly get     'x-served-by': 'cache-ord1722-ORD',
+278 silly get     'x-cache': 'HIT',
+278 silly get     'x-cache-hits': '5',
+278 silly get     'x-timer': 'S1459916086.571090,VS0,VE0',
+278 silly get     vary: 'Accept' } ]
+279 verbose etag https://registry.npmjs.org/caseless from cache
+280 verbose get saving caseless to /Users/nex/.npm/registry.npmjs.org/caseless/.cache.json
+281 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+282 silly cache afterAdd form-data@1.0.0-rc4
+283 verbose afterAdd /Users/nex/.npm/form-data/1.0.0-rc4/package/package.json not in flight; writing
+284 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+285 silly addNameRange number 2 { name: 'oauth-sign', range: '>=0.8.0 <0.9.0', hasData: true }
+286 silly addNameRange versions [ 'oauth-sign',
+286 silly addNameRange   [ '0.2.0',
+286 silly addNameRange     '0.3.0',
+286 silly addNameRange     '0.4.0',
+286 silly addNameRange     '0.5.0',
+286 silly addNameRange     '0.6.0',
+286 silly addNameRange     '0.7.0',
+286 silly addNameRange     '0.8.0',
+286 silly addNameRange     '0.8.1' ] ]
+287 silly addNamed oauth-sign@0.8.1
+288 verbose addNamed "0.8.1" is a plain semver version for oauth-sign
+289 silly addNameRange number 2 { name: 'mime-types', range: '>=2.1.7 <2.2.0', hasData: true }
+290 silly addNameRange versions [ 'mime-types',
+290 silly addNameRange   [ '0.1.0',
+290 silly addNameRange     '1.0.0',
+290 silly addNameRange     '1.0.1',
+290 silly addNameRange     '1.0.2',
+290 silly addNameRange     '2.0.0',
+290 silly addNameRange     '2.0.1',
+290 silly addNameRange     '2.0.2',
+290 silly addNameRange     '2.0.3',
+290 silly addNameRange     '2.0.4',
+290 silly addNameRange     '2.0.5',
+290 silly addNameRange     '2.0.6',
+290 silly addNameRange     '2.0.7',
+290 silly addNameRange     '2.0.8',
+290 silly addNameRange     '2.0.9',
+290 silly addNameRange     '2.0.10',
+290 silly addNameRange     '2.0.11',
+290 silly addNameRange     '2.0.12',
+290 silly addNameRange     '2.0.13',
+290 silly addNameRange     '2.0.14',
+290 silly addNameRange     '2.1.0',
+290 silly addNameRange     '2.1.1',
+290 silly addNameRange     '2.1.2',
+290 silly addNameRange     '2.1.3',
+290 silly addNameRange     '2.1.4',
+290 silly addNameRange     '2.1.5',
+290 silly addNameRange     '2.1.6',
+290 silly addNameRange     '2.1.7',
+290 silly addNameRange     '2.1.8',
+290 silly addNameRange     '2.1.9',
+290 silly addNameRange     '2.1.10' ] ]
+291 silly addNamed mime-types@2.1.10
+292 verbose addNamed "2.1.10" is a plain semver version for mime-types
+293 silly addNameRange number 2 { name: 'caseless', range: '>=0.11.0 <0.12.0', hasData: true }
+294 silly addNameRange versions [ 'caseless',
+294 silly addNameRange   [ '0.1.0',
+294 silly addNameRange     '0.2.0',
+294 silly addNameRange     '0.3.0',
+294 silly addNameRange     '0.4.0',
+294 silly addNameRange     '0.5.0',
+294 silly addNameRange     '0.6.0',
+294 silly addNameRange     '0.7.0',
+294 silly addNameRange     '0.8.0',
+294 silly addNameRange     '0.9.0',
+294 silly addNameRange     '0.10.0',
+294 silly addNameRange     '0.11.0' ] ]
+295 silly addNamed caseless@0.11.0
+296 verbose addNamed "0.11.0" is a plain semver version for caseless
+297 silly cache afterAdd mime-types@2.1.10
+298 verbose afterAdd /Users/nex/.npm/mime-types/2.1.10/package/package.json not in flight; writing
+299 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+300 silly cache afterAdd oauth-sign@0.8.1
+301 verbose afterAdd /Users/nex/.npm/oauth-sign/0.8.1/package/package.json not in flight; writing
+302 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
+303 silly cache afterAdd caseless@0.11.0
+304 verbose afterAdd /Users/nex/.npm/caseless/0.11.0/package/package.json not in flight; writing
 305 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
 306 silly fetchNamedPackageData iconv-lite
 307 silly mapToRegistry name iconv-lite
@@ -795,32 +795,32 @@
 311 silly mapToRegistry uri https://registry.npmjs.org/iconv-lite
 312 verbose request uri https://registry.npmjs.org/iconv-lite
 313 verbose request no auth needed
-314 info attempt registry request try #1 at 11:13:09 PM
+314 info attempt registry request try #1 at 11:14:47 PM
 315 verbose etag "7L02NDC6RWD0Q5D8KLH685TDS"
 316 http request GET https://registry.npmjs.org/iconv-lite
 317 http 304 https://registry.npmjs.org/iconv-lite
-318 verbose headers { date: 'Wed, 06 Apr 2016 04:13:09 GMT',
+318 verbose headers { date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 318 verbose headers   via: '1.1 varnish',
 318 verbose headers   'cache-control': 'max-age=300',
 318 verbose headers   etag: '"7L02NDC6RWD0Q5D8KLH685TDS"',
-318 verbose headers   age: '55',
+318 verbose headers   age: '153',
 318 verbose headers   connection: 'keep-alive',
-318 verbose headers   'x-served-by': 'cache-ord1720-ORD',
+318 verbose headers   'x-served-by': 'cache-ord1741-ORD',
 318 verbose headers   'x-cache': 'HIT',
 318 verbose headers   'x-cache-hits': '1',
-318 verbose headers   'x-timer': 'S1459915989.421344,VS0,VE0',
+318 verbose headers   'x-timer': 'S1459916087.055438,VS0,VE0',
 318 verbose headers   vary: 'Accept' }
 319 silly get cb [ 304,
-319 silly get   { date: 'Wed, 06 Apr 2016 04:13:09 GMT',
+319 silly get   { date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 319 silly get     via: '1.1 varnish',
 319 silly get     'cache-control': 'max-age=300',
 319 silly get     etag: '"7L02NDC6RWD0Q5D8KLH685TDS"',
-319 silly get     age: '55',
+319 silly get     age: '153',
 319 silly get     connection: 'keep-alive',
-319 silly get     'x-served-by': 'cache-ord1720-ORD',
+319 silly get     'x-served-by': 'cache-ord1741-ORD',
 319 silly get     'x-cache': 'HIT',
 319 silly get     'x-cache-hits': '1',
-319 silly get     'x-timer': 'S1459915989.421344,VS0,VE0',
+319 silly get     'x-timer': 'S1459916087.055438,VS0,VE0',
 319 silly get     vary: 'Accept' } ]
 320 verbose etag https://registry.npmjs.org/iconv-lite from cache
 321 verbose get saving iconv-lite to /Users/nex/.npm/registry.npmjs.org/iconv-lite/.cache.json
@@ -851,32 +851,32 @@
 334 verbose addNameVersion registry:https://registry.npmjs.org/iconv-lite not in flight; fetching
 335 verbose request uri https://registry.npmjs.org/iconv-lite
 336 verbose request no auth needed
-337 info attempt registry request try #1 at 11:13:09 PM
+337 info attempt registry request try #1 at 11:14:47 PM
 338 verbose etag "7L02NDC6RWD0Q5D8KLH685TDS"
 339 http request GET https://registry.npmjs.org/iconv-lite
 340 http 304 https://registry.npmjs.org/iconv-lite
-341 verbose headers { date: 'Wed, 06 Apr 2016 04:13:09 GMT',
+341 verbose headers { date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 341 verbose headers   via: '1.1 varnish',
 341 verbose headers   'cache-control': 'max-age=300',
 341 verbose headers   etag: '"7L02NDC6RWD0Q5D8KLH685TDS"',
-341 verbose headers   age: '56',
+341 verbose headers   age: '153',
 341 verbose headers   connection: 'keep-alive',
-341 verbose headers   'x-served-by': 'cache-ord1724-ORD',
+341 verbose headers   'x-served-by': 'cache-ord1739-ORD',
 341 verbose headers   'x-cache': 'HIT',
 341 verbose headers   'x-cache-hits': '2',
-341 verbose headers   'x-timer': 'S1459915989.487806,VS0,VE0',
+341 verbose headers   'x-timer': 'S1459916087.126316,VS0,VE0',
 341 verbose headers   vary: 'Accept' }
 342 silly get cb [ 304,
-342 silly get   { date: 'Wed, 06 Apr 2016 04:13:09 GMT',
+342 silly get   { date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 342 silly get     via: '1.1 varnish',
 342 silly get     'cache-control': 'max-age=300',
 342 silly get     etag: '"7L02NDC6RWD0Q5D8KLH685TDS"',
-342 silly get     age: '56',
+342 silly get     age: '153',
 342 silly get     connection: 'keep-alive',
-342 silly get     'x-served-by': 'cache-ord1724-ORD',
+342 silly get     'x-served-by': 'cache-ord1739-ORD',
 342 silly get     'x-cache': 'HIT',
 342 silly get     'x-cache-hits': '2',
-342 silly get     'x-timer': 'S1459915989.487806,VS0,VE0',
+342 silly get     'x-timer': 'S1459916087.126316,VS0,VE0',
 342 silly get     vary: 'Accept' } ]
 343 verbose etag https://registry.npmjs.org/iconv-lite from cache
 344 verbose get saving iconv-lite to /Users/nex/.npm/registry.npmjs.org/iconv-lite/.cache.json
@@ -898,7 +898,7 @@
 354 silly mapToRegistry uri https://registry.npmjs.org/escape-html
 355 verbose request uri https://registry.npmjs.org/escape-html
 356 verbose request no auth needed
-357 info attempt registry request try #1 at 11:13:10 PM
+357 info attempt registry request try #1 at 11:14:47 PM
 358 verbose etag "1YNNTHWE6AK1WREIMH2EU3K9H"
 359 http request GET https://registry.npmjs.org/escape-html
 360 http 200 https://registry.npmjs.org/escape-html
@@ -908,14 +908,14 @@
 361 verbose headers   'cache-control': 'max-age=300',
 361 verbose headers   'content-length': '5568',
 361 verbose headers   'accept-ranges': 'bytes',
-361 verbose headers   date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+361 verbose headers   date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 361 verbose headers   via: '1.1 varnish',
-361 verbose headers   age: '153',
+361 verbose headers   age: '251',
 361 verbose headers   connection: 'keep-alive',
-361 verbose headers   'x-served-by': 'cache-ord1723-ORD',
+361 verbose headers   'x-served-by': 'cache-ord1747-ORD',
 361 verbose headers   'x-cache': 'HIT',
-361 verbose headers   'x-cache-hits': '6',
-361 verbose headers   'x-timer': 'S1459915990.030617,VS0,VE0',
+361 verbose headers   'x-cache-hits': '1',
+361 verbose headers   'x-timer': 'S1459916087.619686,VS0,VE0',
 361 verbose headers   vary: 'Accept-Encoding' }
 362 silly get cb [ 200,
 362 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
@@ -924,14 +924,14 @@
 362 silly get     'cache-control': 'max-age=300',
 362 silly get     'content-length': '5568',
 362 silly get     'accept-ranges': 'bytes',
-362 silly get     date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+362 silly get     date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 362 silly get     via: '1.1 varnish',
-362 silly get     age: '153',
+362 silly get     age: '251',
 362 silly get     connection: 'keep-alive',
-362 silly get     'x-served-by': 'cache-ord1723-ORD',
+362 silly get     'x-served-by': 'cache-ord1747-ORD',
 362 silly get     'x-cache': 'HIT',
-362 silly get     'x-cache-hits': '6',
-362 silly get     'x-timer': 'S1459915990.030617,VS0,VE0',
+362 silly get     'x-cache-hits': '1',
+362 silly get     'x-timer': 'S1459916087.619686,VS0,VE0',
 362 silly get     vary: 'Accept-Encoding' } ]
 363 verbose get saving escape-html to /Users/nex/.npm/registry.npmjs.org/escape-html/.cache.json
 364 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
@@ -962,7 +962,7 @@
 377 verbose addNameRange registry:https://registry.npmjs.org/escape-html not in flight; fetching
 378 verbose request uri https://registry.npmjs.org/escape-html
 379 verbose request no auth needed
-380 info attempt registry request try #1 at 11:13:10 PM
+380 info attempt registry request try #1 at 11:14:47 PM
 381 verbose etag "1YNNTHWE6AK1WREIMH2EU3K9H"
 382 http request GET https://registry.npmjs.org/escape-html
 383 http 200 https://registry.npmjs.org/escape-html
@@ -972,14 +972,14 @@
 384 verbose headers   'cache-control': 'max-age=300',
 384 verbose headers   'content-length': '5568',
 384 verbose headers   'accept-ranges': 'bytes',
-384 verbose headers   date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+384 verbose headers   date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 384 verbose headers   via: '1.1 varnish',
-384 verbose headers   age: '154',
+384 verbose headers   age: '251',
 384 verbose headers   connection: 'keep-alive',
-384 verbose headers   'x-served-by': 'cache-ord1726-ORD',
+384 verbose headers   'x-served-by': 'cache-ord1725-ORD',
 384 verbose headers   'x-cache': 'HIT',
 384 verbose headers   'x-cache-hits': '3',
-384 verbose headers   'x-timer': 'S1459915990.097506,VS0,VE0',
+384 verbose headers   'x-timer': 'S1459916087.687624,VS0,VE0',
 384 verbose headers   vary: 'Accept-Encoding' }
 385 silly get cb [ 200,
 385 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
@@ -988,14 +988,14 @@
 385 silly get     'cache-control': 'max-age=300',
 385 silly get     'content-length': '5568',
 385 silly get     'accept-ranges': 'bytes',
-385 silly get     date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+385 silly get     date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 385 silly get     via: '1.1 varnish',
-385 silly get     age: '154',
+385 silly get     age: '251',
 385 silly get     connection: 'keep-alive',
-385 silly get     'x-served-by': 'cache-ord1726-ORD',
+385 silly get     'x-served-by': 'cache-ord1725-ORD',
 385 silly get     'x-cache': 'HIT',
 385 silly get     'x-cache-hits': '3',
-385 silly get     'x-timer': 'S1459915990.097506,VS0,VE0',
+385 silly get     'x-timer': 'S1459916087.687624,VS0,VE0',
 385 silly get     vary: 'Accept-Encoding' } ]
 386 verbose get saving escape-html to /Users/nex/.npm/registry.npmjs.org/escape-html/.cache.json
 387 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
@@ -1033,7 +1033,7 @@
 406 silly mapToRegistry uri https://registry.npmjs.org/mime-types
 407 verbose request uri https://registry.npmjs.org/async
 408 verbose request no auth needed
-409 info attempt registry request try #1 at 11:13:10 PM
+409 info attempt registry request try #1 at 11:14:47 PM
 410 verbose etag "4ZO9O66R5OMDMNQ56M6RNDO2K"
 411 http request GET https://registry.npmjs.org/async
 412 http 200 https://registry.npmjs.org/async
@@ -1044,14 +1044,14 @@
 413 verbose headers   'cache-control': 'max-age=300',
 413 verbose headers   'content-length': '35125',
 413 verbose headers   'accept-ranges': 'bytes',
-413 verbose headers   date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+413 verbose headers   date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 413 verbose headers   via: '1.1 varnish',
-413 verbose headers   age: '242',
+413 verbose headers   age: '39',
 413 verbose headers   connection: 'keep-alive',
-413 verbose headers   'x-served-by': 'cache-ord1744-ORD',
+413 verbose headers   'x-served-by': 'cache-ord1722-ORD',
 413 verbose headers   'x-cache': 'HIT',
-413 verbose headers   'x-cache-hits': '11',
-413 verbose headers   'x-timer': 'S1459915990.226573,VS0,VE0',
+413 verbose headers   'x-cache-hits': '1',
+413 verbose headers   'x-timer': 'S1459916087.808229,VS0,VE0',
 413 verbose headers   vary: 'Accept-Encoding' }
 414 silly get cb [ 200,
 414 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
@@ -1061,14 +1061,14 @@
 414 silly get     'cache-control': 'max-age=300',
 414 silly get     'content-length': '35125',
 414 silly get     'accept-ranges': 'bytes',
-414 silly get     date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+414 silly get     date: 'Wed, 06 Apr 2016 04:14:47 GMT',
 414 silly get     via: '1.1 varnish',
-414 silly get     age: '242',
+414 silly get     age: '39',
 414 silly get     connection: 'keep-alive',
-414 silly get     'x-served-by': 'cache-ord1744-ORD',
+414 silly get     'x-served-by': 'cache-ord1722-ORD',
 414 silly get     'x-cache': 'HIT',
-414 silly get     'x-cache-hits': '11',
-414 silly get     'x-timer': 'S1459915990.226573,VS0,VE0',
+414 silly get     'x-cache-hits': '1',
+414 silly get     'x-timer': 'S1459916087.808229,VS0,VE0',
 414 silly get     vary: 'Accept-Encoding' } ]
 415 verbose get saving async to /Users/nex/.npm/registry.npmjs.org/async/.cache.json
 416 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
@@ -1099,7 +1099,7 @@
 429 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
 430 verbose request uri https://registry.npmjs.org/async
 431 verbose request no auth needed
-432 info attempt registry request try #1 at 11:13:10 PM
+432 info attempt registry request try #1 at 11:14:48 PM
 433 verbose etag "4ZO9O66R5OMDMNQ56M6RNDO2K"
 434 http request GET https://registry.npmjs.org/async
 435 http 200 https://registry.npmjs.org/async
@@ -1110,14 +1110,14 @@
 436 verbose headers   'cache-control': 'max-age=300',
 436 verbose headers   'content-length': '35125',
 436 verbose headers   'accept-ranges': 'bytes',
-436 verbose headers   date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+436 verbose headers   date: 'Wed, 06 Apr 2016 04:14:48 GMT',
 436 verbose headers   via: '1.1 varnish',
-436 verbose headers   age: '243',
+436 verbose headers   age: '39',
 436 verbose headers   connection: 'keep-alive',
-436 verbose headers   'x-served-by': 'cache-ord1720-ORD',
+436 verbose headers   'x-served-by': 'cache-ord1741-ORD',
 436 verbose headers   'x-cache': 'HIT',
-436 verbose headers   'x-cache-hits': '10',
-436 verbose headers   'x-timer': 'S1459915990.385765,VS0,VE0',
+436 verbose headers   'x-cache-hits': '1',
+436 verbose headers   'x-timer': 'S1459916088.217309,VS0,VE0',
 436 verbose headers   vary: 'Accept-Encoding' }
 437 silly get cb [ 200,
 437 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
@@ -1127,14 +1127,14 @@
 437 silly get     'cache-control': 'max-age=300',
 437 silly get     'content-length': '35125',
 437 silly get     'accept-ranges': 'bytes',
-437 silly get     date: 'Wed, 06 Apr 2016 04:13:10 GMT',
+437 silly get     date: 'Wed, 06 Apr 2016 04:14:48 GMT',
 437 silly get     via: '1.1 varnish',
-437 silly get     age: '243',
+437 silly get     age: '39',
 437 silly get     connection: 'keep-alive',
-437 silly get     'x-served-by': 'cache-ord1720-ORD',
+437 silly get     'x-served-by': 'cache-ord1741-ORD',
 437 silly get     'x-cache': 'HIT',
-437 silly get     'x-cache-hits': '10',
-437 silly get     'x-timer': 'S1459915990.385765,VS0,VE0',
+437 silly get     'x-cache-hits': '1',
+437 silly get     'x-timer': 'S1459916088.217309,VS0,VE0',
 437 silly get     vary: 'Accept-Encoding' } ]
 438 verbose get saving async to /Users/nex/.npm/registry.npmjs.org/async/.cache.json
 439 verbose correctMkdir /Users/nex/.npm correctMkdir not in flight; initializing
@@ -5391,35 +5391,30 @@
 557 silly doSerial global-install 0
 558 silly doParallel fetch 10
 559 verbose correctMkdir /Users/nex/.npm/_locks correctMkdir not in flight; initializing
-560 warn locking Error: EACCES: permission denied, open '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock'
-560 warn locking     at Error (native)
-560 warn locking  /Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock failed { [Error: EACCES: permission denied, open '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock']
-560 warn locking   errno: -13,
-560 warn locking   code: 'EACCES',
-560 warn locking   syscall: 'open',
-560 warn locking   path: '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock' }
-561 silly rollbackFailedOptional Starting
-562 silly rollbackFailedOptional Finishing
-563 silly runTopLevelLifecycles Starting
-564 silly runTopLevelLifecycles Finishing
-565 silly install printInstalled
-566 verbose stack Error: EACCES: permission denied, open '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock'
-566 verbose stack     at Error (native)
-567 verbose cwd /Users/nex/git/dora-front
-568 error Darwin 15.2.0
-569 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
-570 error node v5.10.1
-571 error npm  v3.8.3
-572 error path /Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock
-573 error code EACCES
-574 error errno -13
-575 error syscall open
-576 error Error: EACCES: permission denied, open '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock'
-576 error     at Error (native)
-576 error  { [Error: EACCES: permission denied, open '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock']
-576 error   errno: -13,
-576 error   code: 'EACCES',
-576 error   syscall: 'open',
-576 error   path: '/Users/nex/.npm/_locks/staging-f24313d3fab430a2.lock' }
-577 error Please try running this command again as root/Administrator.
-578 verbose exit [ -13, true ]
+560 verbose makeDirectory /Users/nex/.npm/_locks creation not in flight; initializing
+561 silly makeDirectory /Users/nex/.npm/_locks uid: 501 gid: 20
+562 silly rollbackFailedOptional Starting
+563 silly rollbackFailedOptional Finishing
+564 silly runTopLevelLifecycles Starting
+565 silly runTopLevelLifecycles Finishing
+566 silly install printInstalled
+567 verbose stack Error: EACCES: permission denied, mkdir '/Users/nex/.npm/_locks'
+567 verbose stack     at Error (native)
+568 verbose cwd /Users/nex/git/dora-front
+569 error Darwin 15.2.0
+570 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+571 error node v5.10.1
+572 error npm  v3.8.3
+573 error path /Users/nex/.npm/_locks
+574 error code EACCES
+575 error errno -13
+576 error syscall mkdir
+577 error Error: EACCES: permission denied, mkdir '/Users/nex/.npm/_locks'
+577 error     at Error (native)
+577 error  { [Error: EACCES: permission denied, mkdir '/Users/nex/.npm/_locks']
+577 error   errno: -13,
+577 error   code: 'EACCES',
+577 error   syscall: 'mkdir',
+577 error   path: '/Users/nex/.npm/_locks' }
+578 error Please try running this command again as root/Administrator.
+579 verbose exit [ -13, true ]
