@@ -8,7 +8,7 @@
  # Controller of the doraFrontApp
 ###
 angular.module 'doraFrontApp'
-  .controller 'MainCtrl', ($scope, Clj) ->
+  .controller 'MainCtrl', ($scope, Clj, $http) ->
     $scope.url = ""
     $scope.expr = ""
     $scope.send = ->
