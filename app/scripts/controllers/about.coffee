@@ -9,13 +9,18 @@
 ###
 angular.module 'doraFrontApp'
   .controller 'AboutCtrl', ($scope, Clj, $http) ->
-    #$scope.data= [{"a": 1, "b": 2}, {"a": 3, "b": 4}]
-    $scope.revisar = () ->
-      console.log "revisando...", $scope.url
-      #console.log 'http://fractal-api.fractal.ai/?expr=(validate "
-      $http({
-        method: "GET",
-        url: 'http://fractal-api.fractal.ai/?expr=(validate "' + $scope.url + '")'
-      }).then( (response) ->
-        $scope.data = response.data.jresult
-        console.log("then: ", response.data.jresult))
+    $scope.url = ""
+    $scope.expr = ""
+    $scope.send = ->
+      console.log $scope.url
+      #$scope.expr = '(validate "' + $scope.url + '")'
+      $scope.expr = '(str \"lol\" "' + $scope.url + '")'
+      console.log $scope.expr
+      $scope.data = Clj.evalClojure($scope.expr).jresult
+
+    $scope.watch(
+      -> Clj.getReturn(),
+      (newReturn) ->
+        refresh()
+        console.log('new return: ', newReturn)
+        $scope.data = newReturn.jresult)

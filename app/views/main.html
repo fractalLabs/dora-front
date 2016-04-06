@@ -5,13 +5,15 @@
     Ingresa la URL de un recurso para revisar problemas en la calidad del recurso de datos.
   </p>
   <p><input ng-model="url" /></p>
-  <p><a class="btn btn-lg btn-success" ng-click="send()">Revisar!<span class="glyphicon glyphicon-ok"></span></a></p>
+  <p><a class="btn btn-lg btn-success" ng-click="revisar()">Revisar!<span class="glyphicon glyphicon-ok"></span></a></p>
 </div>
 {{data}}
+<div ui-grid="{data: data}"></div>
+
 <div class="row marketing">
   <h4>Validaciones hechas por la comunidad</h4>
   <p>
-    <!-- La comunidad México Abierto genera continuamente nuevos programas que identifican problemas potenciales en tus recursos de datos. Es un esfuerzo de todos para mejorar la calidad de los datos abiertos en México. -->
+    La comunidad México Abierto genera continuamente nuevos programas que identifican problemas potenciales en tus recursos de datos. Es un esfuerzo de todos para mejorar la calidad de los datos abiertos en México.
   </p>
 
 </div>

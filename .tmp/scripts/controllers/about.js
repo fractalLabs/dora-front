@@ -9,16 +9,21 @@
     * Controller of the doraFrontApp
    */
   angular.module('doraFrontApp').controller('AboutCtrl', function($scope, Clj, $http) {
-    return $scope.revisar = function() {
-      console.log("revisando...", $scope.url);
-      return $http({
-        method: "GET",
-        url: 'http://fractal-api.fractal.ai/?expr=(validate "' + $scope.url + '")'
-      }).then(function(response) {
-        $scope.data = response.data.jresult;
-        return console.log("then: ", response.data.jresult);
-      });
+    $scope.url = "";
+    $scope.expr = "";
+    $scope.send = function() {
+      console.log($scope.url);
+      $scope.expr = '(str \"lol\" "' + $scope.url + '")';
+      console.log($scope.expr);
+      return $scope.data = Clj.evalClojure($scope.expr).jresult;
     };
+    return $scope.watch(function() {
+      return Clj.getReturn();
+    }, function(newReturn) {
+      refresh();
+      console.log('new return: ', newReturn);
+      return $scope.data = newReturn.jresult;
+    });
   });
 
 }).call(this);
